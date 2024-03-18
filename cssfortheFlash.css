@@ -11,10 +11,9 @@ header{
 	text-align: center;
 	font-size: 25px;
 }
-header img{
-	border-radius: 15px;
-	max-width: 300px;
-	height: auto;
+header > a > img{
+	left: 400px;
+	top: 300px;
 }
 main{
 	text-align: center;
@@ -27,7 +26,7 @@ a:link
 	   }
 	   a:visited
 	   {
-	      color:blue;
+	      color:yellow;
 	   }
 	   a:hover
 	   {
