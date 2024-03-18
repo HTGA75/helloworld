@@ -1,0 +1,55 @@
+body{
+	background-image: url(https://static.wikia.nocookie.net/heroes-and-villain/images/b/bd/Team_Flash.png/revision/latest/scale-to-width-down/1000?cb=20211224053458);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: papyrus;
+	color: white;
+	backdrop-filter: blur(5px);
+}
+header{
+	text-align: center;
+	font-size: 25px;
+}
+header img{
+	border-radius: 15px;
+	max-width: 300px;
+	height: auto;
+}
+main{
+	text-align: center;
+	margin: 10px;
+}
+a:link
+	   {
+	     color:red;
+		 text-decoration:none;
+	   }
+	   a:visited
+	   {
+	      color:blue;
+	   }
+	   a:hover
+	   {
+	      background-color:blue;
+		  color:white;
+		  font-weight:bold;
+	   }
+	   a:active
+	   {
+	      background-color:yellow;
+		  color:white;
+		  font-weight:lighter;
+	   }
+ul{
+
+	background-color: black;
+	border: solidblack;
+	border-radius: 15px;
+}
+footer{
+	margin: 10px;
+	background-color: black;
+	border-radius: 20px;
+	text-align: center;
+}
